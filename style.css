@@ -6,9 +6,9 @@
 .tablo{
   font-weight: 500;
   font-size: large;
-  border: 2px solid rgba(155, 200, 221, 0.5);
+  border: 1px solid rgba(155, 200, 221, 0.5);
   border-radius: 5px;
-  width: 395px;
+  width: 100%;
   height: 100px;
   margin: auto;
 }
@@ -22,23 +22,27 @@
   grid-template-columns: 3fr 1fr;
 }
 div[class$="line"]{
-  width: 400px;
+  width: 101.6%;
   height: 50px;
+  margin: auto;
 }
 #equally{
-  width: 96px;
-  height: 100px;
-  margin-left: 3px;
+  width:98%;
+  height: 200%;
+  margin-left: 5%;
+  position:relative;
 }
 .wrapper-2{
   width: 300px;
 }
 button{
+  padding: 10px;
+  margin: auto;
   width: 24%;
-  display: inline-block;
-  height: 50px;
+  display: inline;
+  height: 100%;
   cursor: pointer;
-  border: 2px solid rgba(155, 200, 221, 0.5);
+  border: 1px solid rgba(155, 200, 221, 0.5);
   border-radius: 5px;
   font-weight: 500;
   font-size: large;
@@ -52,6 +56,28 @@ button:active {
   box-shadow: 0px 0px 10px 1px rgba(34, 141, 223, 0.25);
 }
 button:focus {
-  border: 2px solid rgba(155, 200, 221, 0.5);
+  border: 1px solid rgba(155, 200, 221, 0.5);
   outline: none;
+}
+div[class="4-line"] button{
+  padding: 10px;
+  margin: auto;
+  width: 32%;
+  display: inline;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: large;
+}
+div[class="5-line"] button{
+  padding: 10px;
+  margin: auto;
+  width: 31.5%;
+  display: inline;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: large;
 }
