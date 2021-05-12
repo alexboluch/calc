@@ -1,0 +1,57 @@
+.cover{
+  height: 800px;
+  width: 400px;
+  margin: auto;
+}
+.tablo{
+  font-weight: 500;
+  font-size: large;
+  border: 2px solid rgba(155, 200, 221, 0.5);
+  border-radius: 5px;
+  width: 395px;
+  height: 100px;
+  margin: auto;
+}
+#value{
+  position: relative;
+  left:20px;
+  top: 20px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+div[class$="line"]{
+  width: 400px;
+  height: 50px;
+}
+#equally{
+  width: 96px;
+  height: 100px;
+  margin-left: 3px;
+}
+.wrapper-2{
+  width: 300px;
+}
+button{
+  width: 24%;
+  display: inline-block;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid rgba(155, 200, 221, 0.5);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: large;
+}
+button:hover {
+  background: rgba(124, 124, 197, 0.1);
+}
+button:active {
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(34, 141, 223, 0.25);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(34, 141, 223, 0.25);
+  box-shadow: 0px 0px 10px 1px rgba(34, 141, 223, 0.25);
+}
+button:focus {
+  border: 2px solid rgba(155, 200, 221, 0.5);
+  outline: none;
+}
